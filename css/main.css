@@ -671,6 +671,10 @@ header .container .header__top .header__top-menu li a:hover{
     gap: 10px;  
     margin-bottom: 140px;
 }
+.info_button:hover{
+    background-color: #000000;
+
+}
 
 .map__wrapper{
     display: flex;
