@@ -1,0 +1,223 @@
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        margin: 0 20px;
+    }
+
+    header .container .header__top{
+        display: none;
+    }
+
+    .header__bottom .header__bottom--right{
+        gap: 25px;
+    }
+
+    .header_bottom-len{
+        display: none;
+    }
+
+    .header__bottom .container {
+        align-items: center;
+        justify-content: space-between;
+        padding:  20px 0;
+    }
+
+    .header__bottom .container .header__bottom--left:first-child{
+        flex-direction: column;
+    }
+
+    .header__top-menu li a {
+        font-size: 14px;
+    }
+
+    .header__top-contact span, .header__top-contact a {
+        font-size: 14px;
+    }
+
+    select{
+        display: none;
+    }
+
+    .header__bottom--left-serch {
+        display: none;
+    }
+
+    .header__bottom--right-button {
+        display: none;
+    }
+
+    .hero .container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .hero .container .hero__right img{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        max-width: 335px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .hero__left{
+        max-width: 335px;
+        width: 100%;
+        border-radius:  20px;
+    }
+
+    .hero__left-title {
+        font-size: 20px;
+    }
+
+    .hero__left-text {
+        font-size: 12px;
+    }
+
+    .hero__left-button {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .tab .container {
+        overflow-x: scroll;
+        
+    }
+
+    .tab ul{
+        gap: 40px;
+    }
+
+    .tab ul li a{
+        font-size: 16px;
+        display: ruby-text;
+    }
+
+    .hero .container .hero__left .hero__left-title{
+        font-size: 22px;
+        
+    }
+
+
+    .hero .container .hero__left{
+        padding: 20px;
+    }
+
+    .products .product_title{
+        font-size: 22px;
+    }
+
+    .baner .baner__top .baner__top-title{
+        font-size: 22px;
+    }
+
+    .products .product_wrapper .card .card_info .card_info-price{
+        font-size: 16px;
+    }
+
+    .products .product_wrapper .card .card_info .card_info-price.red{
+        font-size: 16px;
+    }
+
+    .products .product_wrapper .card .card_info .card_info-title{
+        font-size: 14px;
+    }
+
+    .products .product_wrapper .card .card_info .card_info-button.outline{
+        font-size: 13px;
+    }
+
+    .products .product_wrapper .card .card_info .card_info-button{
+        font-size: 13px;
+    }
+
+    .card_info-price--line{
+        font-size: 14px;
+    }
+
+    .baner__bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    .hamburger img {
+        pointer-events: none;
+    }
+
+    .about__right img{
+        position: absolute;
+        left: -380px;
+        top: -280px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .baner__bottom .baner__bottom-item .baner__bottom-item-text{
+        font-size: 16px;
+    }
+
+    .about__right::after{
+        display: none;
+    }
+
+    .header__top-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .footer .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__top-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__top-left--networks{
+        margin: 0;
+    }
+
+    .footer__bottom--right{
+        flex-direction: column;
+    }
+
+    .footer__bottom--right img{
+        width: 120px;
+    }
+
+    .footer__bottom--right-info{
+        display: ruby-text;
+    }
+
+    .map__wrapper{
+        flex-direction:column-reverse;
+    }
+
+    .info_title{
+        font-size: 22px;
+    }
+
+    .info_main img{
+        display: none;
+    }
+
+    .info_wrapper{
+        flex-direction: column;
+    }
+
+    .contact_wrapper{
+        flex-direction: column;
+    }
+}
+
